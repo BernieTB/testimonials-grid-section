@@ -5,6 +5,13 @@ html{
 section{
     font-family: 'Outfit', sans-serif;
     font-size: 13px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px
+}
+
+p{
+    opacity: 70%;
 }
 
 .grid {
@@ -13,10 +20,31 @@ section{
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: 100px 100px 0px 100px;
 }
     
-.one { grid-area: 1 / 1 / 3 / 4; }
-.two { grid-area: 1 / 4 / 3 / 5; }
-.three { grid-area: 1 / 5 / 6 / 6; }
-.four { grid-area: 3 / 1 / 5 / 2; }
-.five { grid-area: 3 / 2 / 5 / 5; }
+.one { 
+    grid-area: 1 / 1 / 3 / 4; 
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+}
+.two { 
+    grid-area: 1 / 4 / 3 / 5; 
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+.three { 
+    grid-area: 1 / 5 / 6 / 6;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+.four { 
+    grid-area: 3 / 1 / 5 / 2;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+.five { 
+    grid-area: 3 / 2 / 5 / 5; 
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
