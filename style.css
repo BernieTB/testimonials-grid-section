@@ -7,11 +7,33 @@ section{
     font-size: 13px;
     border-radius: 10px;
     margin: 10px;
-    padding: 5px
+    padding: 10px;
 }
 
 p{
     opacity: 70%;
+}
+
+img{
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.box-one{
+    display: flex;
+}
+
+.img-one{
+    border: solid;
+    border-width: 2px;
+    border-color: hsl(263, 71%, 70%);
+}
+
+.img-five{
+    border: solid;
+    border-width: 2px;
+    border-color: hsl(263, 55%, 52%);
 }
 
 .grid {
@@ -20,7 +42,7 @@ p{
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin: 100px 100px 0px 100px;
+    margin: 100px 150px 0px 150px;
 }
     
 .one { 
